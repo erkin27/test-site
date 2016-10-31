@@ -193,6 +193,38 @@ input[type=text].field:focus {border:2px solid #F34444;}
 	background-color: #4ABE52;
 } 
 
+/*Центральный блок нашего сайта*/
+#main_soc_block {
+	width: 100%;
+	padding: 2% 0;
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 20px 0;
+	float: left;
+	background: url('../img/london.jpg') repeat-x center;
+	height: 200px;
+}
+
+#main_soc_block_in {
+	text-align: center;
+	padding: 1%;
+	height: 100px;
+	background: #fafafa;
+	border: 1px solid silver;
+	border-radius: 7px;
+	width: 500px;
+}
+
+#main_soc_block_in a {
+	float: left;
+	padding: 5px 10px;
+	background-color: #e9af32;
+	border-radius: 6px;
+	color: #fff;
+	margin-left: 40%;
+	margin-top: 15px; 
+}
+
 /*Стили для футера*/
 footer {
 	border-top: 2px solid silver;
